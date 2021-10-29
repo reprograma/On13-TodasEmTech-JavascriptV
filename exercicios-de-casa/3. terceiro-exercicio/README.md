@@ -1,5 +1,10 @@
-# Desafio: fetch com *axios* - DogsAPI
+# Lição de casa: `npx`
 
-## Instruções para a realização do projeto:
+## Instruções para a realização do exercício:
 
-1. Utilizando o método `.fetch()`, e da biblioteca **axios**, na página index.html, acesse à seguinte API: https://dog.ceo/api/breeds/image/random e traga na página a imagem contida na resposta da requisição.
+Pesquisem sobre o  `npx` e escrevam no arquivo `npx.md` uma documentação sobre o tema, englobando:
+
+- O que é o npx;
+- Como ele funciona;
+- Quais os motivos para utiliza-lo;
+- Comandos básicos do npx;

@@ -2,7 +2,14 @@ const res = document.querySelector(".res");
 const bodyP = document.querySelector(".body");
 const conteudo = [];
 
-const req = fetch(`https://jsonplaceholder.typicode.com/posts/`)
+    const myHeaders = new Headers();
+
+    const myInit = { 
+        method: 'GET',
+        headers: myHeaders,
+    };
+
+const req = fetch(`https://jsonplaceholder.typicode.com/posts/`, myInit)
   .then((response) => response.json())
   .then((item) => {
     item.forEach((elemento) => {

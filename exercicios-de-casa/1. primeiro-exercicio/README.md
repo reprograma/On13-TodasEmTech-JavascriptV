@@ -1,4 +1,4 @@
-# Desafio: fetch com then()/catch()
+# Desafio: fetch com async/await
 
 ## Instruções para a realização do projeto:
 

@@ -2,9 +2,7 @@ const postContainer = document.getElementById('container-posts')
 
 async function articles() {
     const cards = await fetch("https://jsonplaceholder.typicode.com/posts/")
-        .then((response) => response.json())
-        .catch(error => error);
-    return cards;
+    return cards.json();
 }
 
 async function getCards() {

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #02020c;
+}
+
+.bg {
+  padding: 200px 5px;
+  background: url(/assets/img/thumb-1920-107611.jpg) 30% no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.container-table {
+  padding: 70px 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-table .res {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Josefin Sans", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #cacde8;
+}
+.container-table .res .table-post {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.container-table .res .table-post .table-post--item {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.container-table .res .table-post .table-post--item:hover {
+  padding: 20px 10px;
+}
+.container-table .res .table-post .table-post--item-false {
+  text-shadow: 0.1em 0.1em 0.15em #ff69b4;
+  list-style: none;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.container-table .res .table-post .table-post--item-false:hover {
+  padding: 20px 10px;
+} 

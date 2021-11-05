@@ -1,4 +1,6 @@
-const imagem = document.querySelector("#root");
+
+
+    const imagem = document.querySelector("#img");
 
 axios
   .get("https://dog.ceo/api/breeds/image/random")

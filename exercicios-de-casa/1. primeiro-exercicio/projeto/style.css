@@ -1,0 +1,27 @@
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(87, 83, 83, 0.2);
+     transition: 0.3s;
+     width: 100%;
+     text-align: center;
+     background-color: #71a99b; 
+     border-radius: 20px;
+     color: black;
+ }
+
+ .card:hover, .card:focus {
+     box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.2);
+     transform: translateX(5px) scale(1.0);
+ }
+
+ .container {
+     padding: 2px 16px;
+     margin-bottom: 4px;
+ }
+
+.subtitulo {
+    font-size: 25px;
+}
+
+.paragrafo {
+    font-size: 15px;
+}

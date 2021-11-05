@@ -11,8 +11,6 @@ NPX é um package runner do NPM. Ele executa as bibliotecas que podem ser baixad
 [npx](https://www.npmjs.com/package/npx)
 
 
-
-
 ## FAQ
 
 #### Como ele funciona?

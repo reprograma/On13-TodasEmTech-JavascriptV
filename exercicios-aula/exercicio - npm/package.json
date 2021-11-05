@@ -1,0 +1,19 @@
+{
+  "name": "pkg",
+  "version": "1.0.0",
+  "description": "criando pkg json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniszcode/On13-TodasEmTech-JavascriptV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniszcode/On13-TodasEmTech-JavascriptV/issues"
+  },
+  "homepage": "https://github.com/daniszcode/On13-TodasEmTech-JavascriptV#readme"
+}

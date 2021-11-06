@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif; 
+}
+
+body{
+    background: #3a86ff60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem_doguinho{
+    margin: 4rem 0 0 0;
+}
+
+#imagem_doguinho:hover{
+    background-color: #3a86ff;
+    border-radius: 5px;
+    padding: 6px;
+    transition: 0.4s linear;
+    box-shadow: 5px 5px 9px #2a3750;
+    transform: scale(1.0);
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.page {
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #b2ebac 74%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.navbar{
+    background-color: rgb(131, 126, 206);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.logo{
+    font-size: 2rem;
+    color: cornsilk;
+    margin-left: 4rem;
+}
+.menu a {
+    text-decoration: none;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+    color: cornsilk;
+}
+.title__page {
+    font-size: 5rem;
+    color: rgb(56, 85, 163);
+    text-align: center;
+    margin: 3rem;
+    text-shadow: rgb(253, 253, 253) 2px 3px 2px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    width: 20%;
+    height: 38vh; 
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px 1px grey;
+    margin: 2rem;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+
+.card__title {
+    font-weight: bolder;
+    padding: 3rem 2rem 0rem 2rem;
+    font-size: 1.5rem;
+    color: rgb(42, 42, 85);
+}
+
+.card__body {
+    padding: 2.5rem 2rem 1rem 2rem;
+    font-size:1.1rem;
+
+}
+.footer{
+    height: 2.5rem;
+    background-color: rgb(131, 126, 206);
+    text-align: center;
+    color: cornsilk;
+    padding: 0.5rem;
+}
+/*responsividade*/
+@media (min-width:320px) and (max-width:1200px){
+.card__title, .card__body{
+    font-size: 1rem;
+}
+.cards{
+    width: 45%;
+    height: 100%;
+}

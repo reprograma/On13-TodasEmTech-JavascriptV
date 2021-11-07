@@ -1,0 +1,18 @@
+label {
+    display: block;
+    font: .12rem 'Montserrat', sans-serif;
+}
+
+input[type='submit'],
+label {
+    margin-top: 40rem;
+}
+
+.username .password {
+    font: .12rem 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    
+}

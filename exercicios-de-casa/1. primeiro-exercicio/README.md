@@ -1,4 +1,4 @@
-# Desafio: fetch com then()/catch()
+# Desafio: 
 
 ## Instruções para a realização do projeto:
 

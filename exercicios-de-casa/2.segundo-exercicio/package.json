@@ -1,0 +1,14 @@
+{
+  "name": "segundo-exercicio",
+  "version": "1.0.0",
+  "description": "1. Utilizando o método `.fetch()`, e da biblioteca **axios**, na página index.html, acesse à seguinte API: https://dog.ceo/api/breeds/image/random e traga na página a imagem contida na resposta da requisição.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

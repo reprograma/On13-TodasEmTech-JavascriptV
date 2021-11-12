@@ -1,4 +1,5 @@
 async function obterPersonagens() {
+
     
     const myHeaders = new Headers;
 
@@ -13,12 +14,21 @@ async function obterPersonagens() {
     const responseRickMorty = await fetch("https://rickandmortyapi.com/api/character", myInit);
     const resultadoRickMorty = await responseRickMorty.json();
 
+    const imagem = document.querySelector('#image');
+
     const nomesAdventureTime = resultadoAdventureTime.map((nome) => {
         return nome.name;
     });
 
+
     const nomesRickMorty = resultadoRickMorty.results.map((nome) =>{
         return nome.name;
+    });
+
+    const imagensRick = resultadoRickMorty.results.map((image) => {
+    //     return image.image;
+    
+    // imagem.src = image.data.message;
     });
 
     const nomesPersonagens = [...nomesAdventureTime, ...nomesRickMorty];

@@ -1,0 +1,14 @@
+{
+  "name": "1.-primeiro-exercicio",
+  "version": "1.0.0",
+  "description": "Utilizando o método `.fetch()` com *async/await*, acesse à seguinte API: https://jsonplaceholder.typicode.com/posts/ e disponha no index.html todas as propriedades `title` e `body` em cards, seguindo o seguinte layout:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

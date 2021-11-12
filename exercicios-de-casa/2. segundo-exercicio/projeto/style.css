@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 10px;
+    
+}
+
+
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #dae9e0; /* https://flatuicolors.com/palette/de */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.root {
+    
+    display: flex;
+    flex-direction: row;
+} 
+
+#image {
+    margin-top: 1rem;
+    border-radius: 5%;
+    border: solid 2px #a55eea50;
+}
